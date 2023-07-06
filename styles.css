@@ -3,33 +3,24 @@
     padding: 0;
     font-family: 'DM Sans', sans-serif;
     box-sizing: border-box;
-    
-    
-}
-
-i{
-    color: #27477E;
-}
-header{
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    height: 12%;
-    z-index: 9;
+  
 }
 
 .navbar{
+   
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 1rem;
-    margin: 2rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 12%;
+    z-index: 9;
     
 }
 
 .navbar a{
     text-decoration: none;
-    padding: 2rem;
     color: #575757;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
     font-size: 22px;
@@ -126,9 +117,10 @@ header{
 .services{
     background-color: #EEEEEE;
     max-width: 1440px;
-    height: 645px;
+    height: 680px;
     flex-shrink: 0;
     margin-bottom: 3rem;
+    padding: 2rem;
     
 }
 .services-heading{
@@ -152,8 +144,7 @@ header{
 }
 .services-components{
     display: flex;
-    width: 424px;
-    height: 233px;
+    justify-content: space-evenly;
     flex-shrink: 0;
     
 }
@@ -182,7 +173,7 @@ header{
 }
 .ser-components a{
     padding-bottom: 1rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     color: #27477E;
     width: 1440px;
     height: 645px;
@@ -292,9 +283,10 @@ padding: 1rem;
 }
 
 .about-text a{
-    display: flex;
+    display: inline-block;
     position: relative;
-    left: 543px;
+    left: 475px;
+
 }
 
 #achievements{
@@ -506,6 +498,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-decoration-line: underline;
+}
+
+.contact-image .girl{
+    width: 1440px ;
 }
 
 .blog{
