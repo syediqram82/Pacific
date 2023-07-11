@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: 'DM Sans', sans-serif;
-    box-sizing: border-box;
   
+}
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding: 10rem;
+}
+
+body{
+    position: relative;
 }
 
 .navbar{
@@ -34,9 +42,6 @@
     text-shadow:  2px 2px 13px #27477E;
     transition: color 0.5s;
 }
-
-
-
 .hero {
     position: relative;
     text-align: center;
@@ -45,8 +50,8 @@
 
   .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+        top: 50%;
+        left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     width: 823px;
@@ -119,8 +124,7 @@
     max-width: 1440px;
     height: 680px;
     flex-shrink: 0;
-    margin-bottom: 3rem;
-    padding: 2rem;
+    margin-bottom: 5rem;
     
 }
 .services-heading{
@@ -182,6 +186,8 @@
     
 }
 .growth{
+    margin: 2rem 0 7rem 0;
+    
 box-shadow: 11px 8px 16px 0px rgba(0, 0, 0, 0.09);
 }
 
@@ -209,7 +215,7 @@ line-height: normal;
 }
 
 .content .growth-text h3{
-    display: flex;
+display: flex;
 width: 487px;
 height: 29px;
 flex-direction: column;
@@ -234,7 +240,7 @@ font-weight: 400;
 line-height: normal;
 }
 #About{
-    margin: 2rem;
+    margin: 3rem 3rem 7rem 3rem;
     height: 550px;
 }
 
@@ -279,7 +285,7 @@ font-family: DM Sans;
 font-style: normal;
 font-weight: 400;
 line-height: 154.7%;
-padding: 1rem;
+padding: 1rem 1rem 0 1rem;
 }
 
 .about-text a{
@@ -290,31 +296,28 @@ padding: 1rem;
 }
 
 #achievements{
-    
     width: 100%;
     height: 744px;
     flex-shrink: 0;
     text-align:center;
     justify-content: center;
     background: linear-gradient(180deg, #EBE8E8 39.30%, rgba(235, 232, 232, 0.00) 100%);
+    margin-bottom: 5rem;
 
 }
 
 #achievements h1{
     position: relative;
-    left: 30%;
-    display: flex;
-    width: 462px;
-    height: 84px;
+    transform: translate X(-50%);
+    display: inline-block;
     flex-direction: column;
     flex-shrink: 0;
     color: #27477E;
     font-size: 64px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2rem;
 }
 #achievements img{
     padding-bottom: 1rem;
@@ -427,6 +430,7 @@ box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.20);
     transform: translateY(2px);
   }
 
+
   .contact-image{
     position: relative;
   }
@@ -445,7 +449,6 @@ box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.20);
   .contact-text h1{
     color: #FFF;
 font-size: 64px;
-font-family: DM Sans;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -456,7 +459,6 @@ line-height: small;
   .contact-text p{
     color: #FFF;
 font-size: 20px;
-font-family: DM Sans;
 font-style: normal;
 font-weight: 400;
 line-height: small;
@@ -500,14 +502,16 @@ line-height: normal;
 text-decoration-line: underline;
 }
 
-.contact-image .girl{
-    width: 1440px ;
+.contact-image{
+    max-width: 1440px;
+    height: 535px;
 }
 
 .blog{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom:3rem;
     flex-direction: column;
     
 }
@@ -525,7 +529,6 @@ align-items: center;
 background: #000;
 color: #FFF;
 font-size: 31px;
-font-family: DM Sans;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -559,6 +562,14 @@ margin: 2rem;
     box-shadow: 2px -2px 24px 0px rgba(0, 0, 0, 0.28);
     
   }
+
+  .blog-containers-text:hover{
+    height: 140px;
+    border-bottom: 7px  solid #27477E;
+    transition: 0.5s;
+    
+  }
+
 
 .blog-containers-text h1{
     color: #6F6F6F;
