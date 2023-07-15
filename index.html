@@ -8,33 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <title>Pacific Consultancy</title>
 </head>
 <body>
     <header>
         <div class="navbar">
-            <img src="asset/logo.png" alt="logo" width="10%">
-            <div>
-            <a href="">Home</a>
-            <a href="#Products">About Us</a>
+            <img src="asset/logo.png" alt="logo">
+            <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
             <a href="#">Products</a>
             <a href="#">Careers</a>
             <a href="#">Testimonials</a>
             <a href="#">Contact Us </a>
             </div>
-            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"  class="menu"><i class="fa-solid fa-user"></i></a>
         </div>
     </header>
     <section>
         <div class="hero">
-            <img src="asset/buildings.png" alt="hero">
+            <img src="asset/buildings.png" alt="hero" width="100%">
             <div class="centered"> <p data-aos="fade-right" data-aos-duration="1000" >our <strong>Passion</strong> </p>
                 <p data-aos="fade-left" data-aos-duration="1000">for your <strong>Perfection</strong></p>
             </div>
         </div>
     </section>
-    <section id="Products" >
+    <section class ="products" >
      <div class="products-header" >
         <h2 data-aos="fade-right"  data-aos-duration="1000">Our Products</h2>
         <div class="right-element" data-aos="fade-left"  data-aos-duration="1000">
@@ -60,15 +60,15 @@
         </div>
         <div class="services-components">
             <div class="ser-components" div data-aos="flip-left" data-aos-duration="2000">
-                <img src="asset/Implementations.png" alt="" style="width: 424px; height:233px;">
-                <h3>Implementation</h3>
-                <p>Implementation is the quintessential phase 
+                <img src="asset/Implementations.png" alt="" class="ser-components-img">
+                <h3 class="ser-components-img">Implementation</h3>
+                <p class="ser-components-img">Implementation is the quintessential phase 
                     of any project. PCPL has an indispensable 
                     role in understandin</p>
                     <a href="#"><img src="asset/Group 7.png" alt="" ></a>
             </div>
             <div class="ser-components" div data-aos="flip-left" data-aos-duration="2000">
-                <img src="asset/Implementations.png" alt="" style="width: 424px; height:233px;">
+                <img src="asset/Implementations.png" alt="" class="ser-components-img" >
                 <h3>SUPPORT AND SERVICES</h3>
                 <p>Implementation is the quintessential phase 
                     of any project. PCPL has an indispensable 
@@ -76,7 +76,7 @@
                    <a href="#"><img src="asset/Group 7.png" alt=""></a>
             </div>
             <div class="ser-components" div data-aos="flip-left" data-aos-duration="2000">
-                <img src="asset/Rectangle 19 (1).png" alt="" style="width: 424px; height:233px ;">
+                <img src="asset/Rectangle 19 (1).png" alt="" class="ser-components-img">
                 <h3>ANCILLARY SERVICES</h3>
                 <p>Implementation is the quintessential phase 
                     of any project. PCPL has an indispensable 
@@ -88,7 +88,7 @@
     
     <section class="growth">
         <div class="growth-upper content">
-            <video width="725px" height="355px" controls data-aos="fade-right" data-aos-duration="1000">
+            <video width="50%" controls data-aos="fade-right" data-aos-duration="1000">
                 <source src="asset/computer_-_113370 (1080p).mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -104,16 +104,16 @@
                 <h3>Delivering digital excellence globally!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm</p>
               </div>
-              <video width="725px" height="355px" controls data-aos="fade-left" data-aos-duration="1000">
+              <video width="50%"controls data-aos="fade-left" data-aos-duration="1000">
                 <source src="asset/computer_-_113370 (1080p).mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
         </div>
     </section>
-    <section id="About">
+    <section class="about">
         <div class="aboutleft">
             <h1  data-aos="zoom-in" data-aos-duration="2000" >About Us </h1>
-            <img src="asset/Rectangle 12558.png" alt="" width=" 879px" height="442px" data-aos="fade-right">
+            <img src="asset/Rectangle 12558.png" alt="" data-aos="fade-right">
             <div class="about-text" data-aos="fade-left" data-aos-duration="2000">
                 <p>Dynamics (NAV, CRM & AX) Services to clients across India. We focus our potential in assisting our clients to accelerate their profits through well managed and advanced Systems.
                     PCPL is an IT/ITeS firm specialized in providing Microsoft Dynamics Products & Services including their Implementation, Upgradation, Enhancements & Licensing. Working with the most motivated & efficient team, we work in tandem with diverse organizations across different industries to provide tailor-made solutions to suit their needs.</p>
@@ -122,12 +122,11 @@
             
         </div>
     </section>
-    <section id="achievements">
+    <section class="achievements">
         <h1>Achievements</h1>
         <div class="achievements-bisleri" data-aos="fade-up" 
-        data-aos-duration="2000"
-        >
-            <img src="asset/Rectangle 33.png" alt="" width="1187px" height="534px">
+        data-aos-duration="2000" >
+            <img src="asset/Rectangle 33.png" alt="" width="1187px" height="534px" class="achievements-img">
             <div class="bisleri">
                 <img src="asset/1200px-Bisleri_logo 1.png" alt="" width="200px" height="74px"/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm</p>
